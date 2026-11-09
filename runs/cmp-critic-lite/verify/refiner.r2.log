@@ -1,0 +1,10 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/check_code.py /private/tmp/cmpL/final_code.py --level run --timeout 240
+
+[OK]
+动态探针全部通过：smoke=ok / causal=ok / timing=ok / panel=ok / shape=ok / suite=ok
+[/OK]
+[OK]
+产物 __main__ 通过，输出末段:
+returncode=0 shape=(60, 3) dtypes={'signal': 'int8', 'position': 'float64', 'mom': 'float64'}
+total_cost=0.003100
+[/OK]

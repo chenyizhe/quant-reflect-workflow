@@ -1,0 +1,76 @@
+{
+  "workflow": "量化代码自我反思流",
+  "version": "1.9",
+  "run_id": "cmpL",
+  "runtime": "builtin",
+  "builtin": {
+    "profile": "lite",
+    "lock": false
+  },
+  "nodes": [
+    {
+      "node_id": "spec",
+      "name": "契约定义",
+      "mode": "builtin",
+      "profile": "lite",
+      "profile_source": "models.fast",
+      "model": null,
+      "artifacts": {
+        "spec": "spec.md"
+      },
+      "chars": {
+        "spec": 2522
+      },
+      "recorded_at": "2026-10-22T16:54:10",
+      "status": "ok"
+    },
+    {
+      "node_id": "generator",
+      "name": "初稿生成器",
+      "mode": "builtin",
+      "profile": "lite",
+      "profile_source": "models.fast",
+      "model": null,
+      "artifacts": {
+        "draft_code": "draft_code.py"
+      },
+      "chars": {
+        "draft_code": 10593
+      },
+      "recorded_at": "2026-10-22T16:57:41",
+      "status": "ok"
+    },
+    {
+      "node_id": "critic",
+      "name": "严厉审查官",
+      "mode": "builtin",
+      "profile": "reasoning",
+      "profile_source": "models.reasoner",
+      "model": null,
+      "artifacts": {
+        "critique_report": "critique_report.md"
+      },
+      "chars": {
+        "critique_report": 6249
+      },
+      "recorded_at": "2026-10-22T17:43:23",
+      "status": "ok"
+    },
+    {
+      "node_id": "refiner",
+      "name": "重构修复者",
+      "mode": "builtin",
+      "profile": "lite",
+      "profile_source": "models.fast",
+      "model": null,
+      "artifacts": {
+        "final_code": "final_code.py"
+      },
+      "chars": {
+        "final_code": 11640
+      },
+      "recorded_at": "2026-10-22T17:45:52",
+      "status": "ok"
+    }
+  ]
+}

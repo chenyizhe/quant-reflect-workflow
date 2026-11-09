@@ -1,0 +1,5 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/check_code.py /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/draft_code.py --level runtime
+
+[OK]
+动态探针全部通过：smoke=ok / causal=ok / timing=ok / panel=ok / shape=ok
+[/OK]

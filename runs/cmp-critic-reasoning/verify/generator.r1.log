@@ -1,0 +1,6 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/check_code.py /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/draft_code.py --level runtime
+
+[PANEL]
+panel: AAA 子集有 28 行与单独运行不一致（跨标的混算）
+  BBB 子集有 26 行与单独运行不一致（跨标的混算）
+[/PANEL]

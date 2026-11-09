@@ -1,0 +1,5 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/check_code.py /private/tmp/cmpR/final_code.py --level run --timeout 240
+
+[SUITE]
+suite: 第 41 根为一字板（open==high==low==close）却仍建仓，未顺延
+[/SUITE]

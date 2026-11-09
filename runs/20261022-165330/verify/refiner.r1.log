@@ -1,0 +1,11 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/check_code.py /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/final_code.py --level run --timeout 240
+
+[OK]
+动态探针全部通过：smoke=ok / causal=ok / timing=ok / panel=ok / shape=ok / suite=ok
+[/OK]
+[OK]
+产物 __main__ 通过，输出末段:
+returncode=0
+shape=(60, 3) dtype={'signal': 'int8', 'position': 'float64', 'mom': 'float64'}
+signal_uniq=[0, 1] pos_uniq=[0.0, 1.0] lag_ok=True
+[/OK]

@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "id": "generator.c1",
+      "path": "/Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/candidates/generator.c1.py",
+      "score": 0,
+      "passed": false,
+      "status": "VETOED",
+      "gate": "check_code(runtime) 未通过",
+      "veto_reasons": [
+        "PANEL"
+      ],
+      "breakdown": {},
+      "reasons": [
+        "[PANEL]\npanel: AAA 子集有 28 行与单独运行不一致（跨标的混算）\n  BBB 子集有 26 行与单独运行不一致（跨标的混算）\n[/PANEL]"
+      ]
+    },
+    {
+      "id": "generator.c2",
+      "path": "/Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/candidates/generator.c2.py",
+      "score": 0,
+      "passed": false,
+      "status": "VETOED",
+      "gate": "check_code(runtime) 未通过",
+      "veto_reasons": [
+        "PANEL"
+      ],
+      "breakdown": {},
+      "reasons": [
+        "[PANEL]\npanel: AAA 子集有 3 行与单独运行不一致（跨标的混算）\n  BBB 子集有 3 行与单独运行不一致（跨标的混算）\n[/PANEL]"
+      ]
+    }
+  ],
+  "best": null,
+  "weights": {
+    "客观": 1.0,
+    "说明": "语义分由 pick --with-llm 另行加权 0.7/0.3"
+  },
+  "rule": "gate(check_code runtime: 因果+时序+CoW) → 规范30+向量化20+稳健30+契约20"
+}

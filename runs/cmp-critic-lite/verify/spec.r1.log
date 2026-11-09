@@ -1,0 +1,5 @@
+$ /Users/chenyizhe/.workbuddy/binaries/python/envs/default/bin/python /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/tools/validate_spec.py /Volumes/plugHD/workbuddy/WorkBuddy/2026-10-21-15-17-31/quant-reflect-workflow/runs/20261022-165330/spec.md
+
+[OK]
+契约结构通过：timing=t_close, exec=t1_open, warmup=20, 默认值 5 条
+[/OK]
